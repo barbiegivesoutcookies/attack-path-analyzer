@@ -1,0 +1,9 @@
+# Attack Path Analyzer - pinned Python dependencies.
+# Versions are constrained to the ranges validated for this project; install
+# with: pip install -r requirements.txt
+
+fastapi==0.115.*
+networkx==3.3
+neo4j==5.24.*
+pydantic==2.*
+uvicorn==0.30.*

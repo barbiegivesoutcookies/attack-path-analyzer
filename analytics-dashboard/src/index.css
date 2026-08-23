@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* The Cytoscape.js container requires explicit CSS dimensions; without them
+   the library measures a zero-height parent and renders an invisible canvas. */
+#cytoscape-canvas {
+  width: 100%;
+  height: 600px;
+  display: block;
+}
+
+/* Thin dark scrollbars consistent with the SOC theme. */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #334155 transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #334155;
+  border-radius: 4px;
+}

@@ -1,0 +1,30 @@
+{
+  "name": "attack-path-analyzer-dashboard",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Interactive topology dashboard for the Graph-Theoretic Cyber Attack Path Analysis and Risk Prediction System",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.19.0",
+    "cytoscape": "^3.34.1",
+    "lucide-react": "^1.33.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/cytoscape": "^3.21.8",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15",
+    "typescript": "~5.6.3",
+    "vite": "^5.4.11"
+  }
+}

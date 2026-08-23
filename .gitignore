@@ -1,0 +1,128 @@
+# =============================================================================
+# Attack Path Analyzer - Root .gitignore
+# Excludes build artifacts, virtual environments, dependency trees, editor
+# state, environment secrets, and OS-specific metadata from version control.
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# Python
+# -----------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+pythonenv*/
+
+# Test / coverage artifacts
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+
+# Jupyter Notebook checkpoints (if used for exploratory analysis)
+.ipynb_checkpoints
+
+# -----------------------------------------------------------------------------
+# Node.js / React / Vite
+# -----------------------------------------------------------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Vite build output
+analytics-dashboard/dist/
+analytics-dashboard/dist-ssr/
+analytics-dashboard/local/
+
+# Dependency lockfiles are intentionally NOT ignored for the frontend:
+# package-lock.json should be committed for reproducible installs.
+
+# TypeScript incremental build cache
+*.tsbuildinfo
+
+# Optional linting caches
+.eslintcache
+
+# -----------------------------------------------------------------------------
+# Environment variables and secrets
+# -----------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+
+# -----------------------------------------------------------------------------
+# Editors and IDEs
+# -----------------------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# -----------------------------------------------------------------------------
+# Operating system metadata
+# -----------------------------------------------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
